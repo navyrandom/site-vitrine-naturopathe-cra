@@ -1,7 +1,7 @@
 import React from "react";
 import CardHeader from "@material-ui/core/CardHeader";
 import IconButton from "@material-ui/core/IconButton";
-
+import './description.css';
 
 export default function Description(props) {
   return (
@@ -32,45 +32,46 @@ export default function Description(props) {
           leurs causes et rééquilibrage du corps en fonction de ce que nous
           avons mis en lumière.
         </p>
-        <div className='bigdescription'>
-          <span className='minidescription'>
+        <div className="bigcard">
+          <span className="smallcard" style={{marginTop: "20px"}}>
             <CardHeader
               action={<IconButton aria-label=""></IconButton>}
               title="Troubles génito-urinaires"
               subheader="Aménorrhée, dysménorrhée, cystite, mycose génitale, pertes génitales, ..."
             />
           </span>
-          <span className='minidescription'>
+          <span className="smallcard">
             <CardHeader
               title="Troubles ostéo-articulaires "
               subheader="Troubles ostéo-articulaires 
     Tendinite, goutte, arthrose, polyarthrite rhumatoïde, ostéoporose, spondylarthrite ankylosante, fibromyalgie, ..."
             />
-          </span>
-          <span className='minidescription'>
+          </span >
+          <span className="smallcard">
             <CardHeader
               title="Troubles ORL"
               subheader="Nez encombré, bronchite chronique, angine et amygdalite à répétition, sinusite, otite, ..."
             />
           </span>
-          <span className='minidescription'>
+          <span className="smallcard">
             <CardHeader
               title="Troubles digestifs "
               subheader="Ballonnements, constipation, diarrhée, difficulté à digérer, reflux gastriques, ulcère, gastrite, colopathie fonctionnelle, maladie de Crohn, rectocolite hémorragique, ..."
             />
           </span>
-          <span className='minidescription'>
+          <span className="smallcard">
             <CardHeader
               title="Troubles de la peau"
               subheader="Acné, psoriasis, eczéma, herpès, mycoses, ..."
             />
           </span>
-          <span className='minidescription'>
+          <span className="smallcard">
             <CardHeader
               title="Ainsi que:"
               subheader="Volonté de perte ou prise de poids, fatigue chronique, stress, dépression, insomnie, problèmes circulatoires, hémorroïdes, ..."
             />
           </span>
+          
         </div>
       </div>
     </div>

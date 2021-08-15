@@ -1,28 +1,25 @@
 import React from "react";
-
+import "./navigation.css"
 export default function Navigation(props) {
   return (
-    <div className='grid'>
-      <a href="/description" className='card'>
-        <h2>Pourquoi la naturopathie? </h2>
+ 
+    <nav className="menu">
+      <ul className="centre-text bold-text"></ul>
+      <a href="/definition" className="card">
+        <li>La naturopathie</li>
       </a>
 
-      <a href="/about-me" className='card'>
-        <h2>Mon approche </h2>
-      </a>
-
-      <a href="/consultation" className='card'>
-        <h2>Consultation </h2>
+      <a href="/aboutme" className="card">
+        <li>Mon approche</li>
       </a>
 
       <a
         href="https://www.coraliebeguin.com/tarifs-et-rendez-vous/"
-        className='card'
+        className="card"
       >
-        <h2>Tarifs & rendez-vous </h2>
+        <li>Tarifs & rendez-vous</li>
       </a>
-    </div>
+    </nav>
+   
   );
 }
-
-

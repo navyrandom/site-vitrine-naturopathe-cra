@@ -1,7 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# Getting Started 
+npm i 
+react-router-dom
+tailwindcss
+site exemple : https://editor.wix.com/html/editor/web/renderer/external_preview/document/948bc680-bd2b-4b01-a93b-bcdba68d3e44?metaSiteId=c8f2791a-aeb1-49ce-81c7-6d9e90b8e9d0 
 ## Available Scripts
 
 In the project directory, you can run:
