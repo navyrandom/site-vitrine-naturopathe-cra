@@ -1,14 +1,16 @@
 import React from "react";
 import CardHeader from "@material-ui/core/CardHeader";
 import IconButton from "@material-ui/core/IconButton";
-
+import "./all.css";
+import { Divider } from "@material-ui/core";
 
 export default function Description(props) {
   return (
-    <div className='descriptionpage'>
-     
-      <div className='description'>
+    <div>
+      <div className="description1">
         <h2>Qu'est ce que la naturopathie ? </h2>
+
+        <Divider />
         <p>
           En 1997, la naturopathie a été reconnue par le Parlement Européen
           comme médecine non conventionnelle puis en 2001, comme une pratique de
@@ -24,48 +26,51 @@ export default function Description(props) {
           par revenir puisque l'on n'a rien changé a son nid douillet.
         </p>
       </div>
-      <div className='description'>
+      <div className="description2">
         <h2>Pourquoi consulter une naturopathe?</h2>
+        <Divider />
         <p>
           Les sphères d'action de la naturopathie sont multiples, dès lors que
           vous êtes confronté(e)s à des maux récurrents, il y a recherche de
           leurs causes et rééquilibrage du corps en fonction de ce que nous
           avons mis en lumière.
         </p>
-        <div className='bigdescription'>
-          <span className='minidescription'>
+<div className="sixreasons">
+        <div className="bigcard">
+          <span className="smallcard">
             <CardHeader
-              action={<IconButton aria-label=""></IconButton>}
               title="Troubles génito-urinaires"
               subheader="Aménorrhée, dysménorrhée, cystite, mycose génitale, pertes génitales, ..."
             />
           </span>
-          <span className='minidescription'>
+          <span className="smallcard">
             <CardHeader
               title="Troubles ostéo-articulaires "
               subheader="Troubles ostéo-articulaires 
     Tendinite, goutte, arthrose, polyarthrite rhumatoïde, ostéoporose, spondylarthrite ankylosante, fibromyalgie, ..."
             />
           </span>
-          <span className='minidescription'>
+          <span className="smallcard">
             <CardHeader
               title="Troubles ORL"
               subheader="Nez encombré, bronchite chronique, angine et amygdalite à répétition, sinusite, otite, ..."
             />
           </span>
-          <span className='minidescription'>
+        </div>
+        <div className="bigcard2">
+          <span className="smallcard2">
             <CardHeader
               title="Troubles digestifs "
               subheader="Ballonnements, constipation, diarrhée, difficulté à digérer, reflux gastriques, ulcère, gastrite, colopathie fonctionnelle, maladie de Crohn, rectocolite hémorragique, ..."
             />
           </span>
-          <span className='minidescription'>
+          <span className="smallcard2">
             <CardHeader
               title="Troubles de la peau"
               subheader="Acné, psoriasis, eczéma, herpès, mycoses, ..."
             />
           </span>
-          <span className='minidescription'>
+          <span className="smallcard2">
             <CardHeader
               title="Ainsi que:"
               subheader="Volonté de perte ou prise de poids, fatigue chronique, stress, dépression, insomnie, problèmes circulatoires, hémorroïdes, ..."
@@ -73,8 +78,7 @@ export default function Description(props) {
           </span>
         </div>
       </div>
+      </div>
     </div>
   );
-  }
-
-
+}
