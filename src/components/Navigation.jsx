@@ -1,25 +1,36 @@
 import React from "react";
-import "./navigation.css"
+import "./all.css"
 export default function Navigation(props) {
   return (
- 
-    <nav className="menu">
-      <ul className="centre-text bold-text"></ul>
-      <a href="/definition" className="card">
-        <li>La naturopathie</li>
-      </a>
+    <div className="menu">
+    <div className="navbar">
+      <a href="/">La naturopathie</a>
+      <a href="/aboutme">Mon approche</a>
+      <a href="/rdv">Prendre un rendez-vous</a>
+    </div>
+    </div>
 
-      <a href="/aboutme" className="card">
-        <li>Mon approche</li>
-      </a>
-
-      <a
-        href="https://www.coraliebeguin.com/tarifs-et-rendez-vous/"
-        className="card"
-      >
-        <li>Tarifs & rendez-vous</li>
-      </a>
-    </nav>
+    // <nav className="menu">
+    //   <ul className="centre-text bold-text"></ul>
+    //   <li>
+    //   <a href="/" className="card">
+    //   La naturopathie
+    //   </a>
+    //   </li>
+    //   <li>
+    //   <a href="/aboutme" className="card">
+    //    Mon approche
+    //   </a>
+    //   </li>
+    //   <li>
+    //   <a
+    //     href="https://www.coraliebeguin.com/tarifs-et-rendez-vous/"
+    //     className="card"
+    //   >
+    //    Tarifs & rendez-vous
+    //   </a>
+    //   </li>
+    // </nav>
    
   );
 }

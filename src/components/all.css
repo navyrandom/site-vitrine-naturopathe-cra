@@ -1,0 +1,123 @@
+.aboutme,
+.description1,
+.description2,
+.rdv {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  border-radius: 19px;
+  -webkit-border-radius: 19px;
+  color: #261c2c;
+  margin: 5%;
+  padding: 5%;
+}
+header {
+  background-image: url(https://images.unsplash.com/photo-1492552296703-4ec0a2fb3715?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1073&q=80);
+  z-index: 0;
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin: 5%;
+  padding: 5%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  border-radius: 19px;
+  -webkit-border-radius: 19px;
+}
+h1,
+h5 {
+  position: inherit;
+  z-index: 1;
+  color: lavender;
+}
+/* description */
+
+@media (max-width: 815px) {
+  .bigcard {
+    display: grid;
+    padding-top: 30px;
+    width: 100%;
+  }
+}
+@media (min-width: 815px) {
+  .bigcard {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 815px) {
+  .bigcard2 {
+    display: grid;
+    padding-top: 30px;
+    width: 100%;
+  }
+}
+@media (min-width: 815px) {
+  .bigcard2 {
+    display: flex;
+    width: 100%;
+  }
+}
+.smallcard,
+.smallcard2 {
+  display: flexbox;
+  float: left;
+  padding: 10px;
+  border: dotted 1px;
+  background-color: whitesmoke;
+  flex: 1;
+  padding: 16px;
+}
+.sixreasons {
+  background-image: url(https://images.unsplash.com/photo-1603449281586-e9d63d8d0f90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  z-index: 0;
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 10%;
+}
+/*navigation*/
+
+/* Style the navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #261c2c;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  display: block;
+  position: sticky;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+footer {
+  background-color: #261c2c;
+  color: #f2f2f2;
+  padding: 14px;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

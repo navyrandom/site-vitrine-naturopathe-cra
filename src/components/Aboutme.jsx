@@ -1,9 +1,12 @@
+import { Divider } from "@material-ui/core";
 import React from "react";
+import "./all.css";
 
 export default function Aboutme(props) {
   return (
-    <div>
-      <h2>Qui suis-je?</h2>
+    <div className="aboutme">
+      <h2>A mon propos</h2>
+      <Divider />
       <p>
         Une enthousiaste de la vie et de ces péripéties ! J'aime, et ai toujours
         aimé, me laisser porter par les défis et surprises que la vie m'apporte.
@@ -17,7 +20,7 @@ export default function Aboutme(props) {
         beaucoup d'autres troubles. J'ai également rejoint l'équipe de
         naturopathes de Coralie Beguin en 2020
       </p>
-      <h3>Quelle est mon approche en consultation ? </h3>
+      <h2>Quelle est mon approche en consultation ? </h2>
       <p>
         Mon rôle de en tant que naturopathe est de vous aider à rétablir les
         piliers de votre santé et de retrouver l'équilibre de votre organisme.
