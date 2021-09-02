@@ -1,6 +1,5 @@
 import React from "react";
 import CardHeader from "@material-ui/core/CardHeader";
-import IconButton from "@material-ui/core/IconButton";
 import "./all.css";
 import { Divider } from "@material-ui/core";
 
@@ -35,49 +34,49 @@ export default function Description(props) {
           leurs causes et rééquilibrage du corps en fonction de ce que nous
           avons mis en lumière.
         </p>
-<div className="sixreasons">
-        <div className="bigcard">
-          <span className="smallcard">
-            <CardHeader
-              title="Troubles génito-urinaires"
-              subheader="Aménorrhée, dysménorrhée, cystite, mycose génitale, pertes génitales, ..."
-            />
-          </span>
-          <span className="smallcard">
-            <CardHeader
-              title="Troubles ostéo-articulaires "
-              subheader="Troubles ostéo-articulaires 
+        <div className="sixreasons">
+          <div className="bigcard">
+            <span className="smallcard">
+              <CardHeader
+                title="Troubles génito-urinaires"
+                subheader="Aménorrhée, dysménorrhée, cystite, mycose génitale, pertes génitales, ..."
+              />
+            </span>
+            <span className="smallcard">
+              <CardHeader
+                title="Troubles ostéo-articulaires "
+                subheader="Troubles ostéo-articulaires 
     Tendinite, goutte, arthrose, polyarthrite rhumatoïde, ostéoporose, spondylarthrite ankylosante, fibromyalgie, ..."
-            />
-          </span>
-          <span className="smallcard">
-            <CardHeader
-              title="Troubles ORL"
-              subheader="Nez encombré, bronchite chronique, angine et amygdalite à répétition, sinusite, otite, ..."
-            />
-          </span>
+              />
+            </span>
+            <span className="smallcard">
+              <CardHeader
+                title="Troubles ORL"
+                subheader="Nez encombré, bronchite chronique, angine et amygdalite à répétition, sinusite, otite, ..."
+              />
+            </span>
+          </div>
+          <div className="bigcard">
+            <span className="smallcard">
+              <CardHeader
+                title="Troubles digestifs "
+                subheader="Ballonnements, constipation, diarrhée, difficulté à digérer, reflux gastriques, ulcère, gastrite, colopathie fonctionnelle, maladie de Crohn, rectocolite hémorragique, ..."
+              />
+            </span>
+            <span className="smallcard">
+              <CardHeader
+                title="Troubles de la peau"
+                subheader="Acné, psoriasis, eczéma, herpès, mycoses, ..."
+              />
+            </span>
+            <span className="smallcard">
+              <CardHeader
+                title="Ainsi que:"
+                subheader="Volonté de perte ou prise de poids, fatigue chronique, stress, dépression, insomnie, problèmes circulatoires, hémorroïdes, ..."
+              />
+            </span>
+          </div>
         </div>
-        <div className="bigcard2">
-          <span className="smallcard2">
-            <CardHeader
-              title="Troubles digestifs "
-              subheader="Ballonnements, constipation, diarrhée, difficulté à digérer, reflux gastriques, ulcère, gastrite, colopathie fonctionnelle, maladie de Crohn, rectocolite hémorragique, ..."
-            />
-          </span>
-          <span className="smallcard2">
-            <CardHeader
-              title="Troubles de la peau"
-              subheader="Acné, psoriasis, eczéma, herpès, mycoses, ..."
-            />
-          </span>
-          <span className="smallcard2">
-            <CardHeader
-              title="Ainsi que:"
-              subheader="Volonté de perte ou prise de poids, fatigue chronique, stress, dépression, insomnie, problèmes circulatoires, hémorroïdes, ..."
-            />
-          </span>
-        </div>
-      </div>
       </div>
     </div>
   );
