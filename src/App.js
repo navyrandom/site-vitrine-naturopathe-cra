@@ -13,9 +13,10 @@ function App() {
           <a href="#rdv">Prendre un rendez-vous</a>
         </div>
       </div>
+      <div className="main">
       <header>
         <h1>Naturopathe certifiée</h1>
-        <h5>Coralie GUYON</h5>
+        <h3>Coralie GUYON</h3>
       </header>
       <body>
         <section id="accueil">
@@ -29,6 +30,7 @@ function App() {
         </section>
       </body>
       <footer>Suivez-moi sur facebook , youtube pour mieux comprendre ma démarche</footer>
+    </div>
     </div>
   );
 }
